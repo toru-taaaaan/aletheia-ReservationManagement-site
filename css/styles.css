@@ -1,0 +1,173 @@
+@charset "UTF-8";
+html {
+  color: #000;
+  background: #fff; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, em, strong, a, a:hover, pre, code, fieldset, form, select, legend, label, input, button, textarea, p, table, th, td, img {
+  margin: 0px;
+  padding: 0px;
+  zoom: 1; }
+
+body {
+  display: block;
+  margin: 8px;
+  font: 13px/1.231 arial,helvetica,clean,sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+
+h1, h2, h3, h4, h5, h6, em, strong, a, a:hover {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  outline: none; }
+
+div {
+  display: block; }
+
+ul {
+  list-style-type: disc; }
+
+li {
+  list-style: none; }
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer; }
+
+#container {
+  width: 958px;
+  margin: 0 auto;
+  border: 1px solid #d01027;
+  text-align: left; }
+
+#header_info {
+  width: 340px;
+  margin-left: auto;
+  padding: 5px 5px 5px 0px; }
+
+#header img {
+  display: block;
+  float: left; }
+
+fieldset, img {
+  border: 0; }
+
+#header li.menuicon {
+  display: block;
+  width: 70px;
+  height: 75px;
+  float: left;
+  border-right: 1px solid #d01027;
+  text-align: center; }
+
+#header li.menuicon img {
+  clear: both;
+  width: 58px;
+  margin: 0px auto;
+  float: none; }
+
+td {
+  display: table-cell;
+  vertical-align: inherit; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px; }
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td {
+  padding: 5px; }
+
+#header_info td.title {
+  width: 80px; }
+
+#header_info td {
+  padding: 0px; }
+
+#header_info td.logout {
+  background-color: #d01027;
+  text-align: center;
+  padding: 0 2px;
+  width: 70px; }
+
+#header_info td.logout a {
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: normal;
+  cursor: pointer; }
+
+h1, h2, h3, h4, h5, h6, em, strong, a, a:hover {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  outline: none; }
+
+div.reserv_cal {
+  width: 208px;
+  float: left;
+  padding: 5px;
+  float: left; }
+
+div.reserv_header {
+  padding: 2px;
+  margin: 5px;
+  height: 25px;
+  vertical-align: middle; }
+
+element.style {
+  display: block; }
+
+.ui-datepicker {
+  width: 14em; }
+
+.ui-datepicker {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none; }
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -khtml-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -khtml-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -khtml-border-top-right-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -khtml-border-top-left-radius: 5px;
+  border-top-left-radius: 5px; }
+
+.ui-widget-content {
+  border: 1px solid #e06060;
+  background: #fcfdfd url(images/ui-bg_inset-hard_100_fcfdfd_1x100.png) 50% bottom repeat-x;
+  color: #222222; }
+
+.ui-widget {
+  font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+  font-size: 1.1em; }
+
+.ui-helper-clearfix {
+  display: block; }
+
+.ui-helper-clearfix {
+  display: inline-block; }
