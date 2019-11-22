@@ -119,3 +119,82 @@ div.reserv_date {
   font-weight: bold;
   font-size: 1.3em;
   color: #d01027; }
+
+div.reserv_header {
+  padding: 2px;
+  margin: 5px;
+  height: 25px;
+  vertical-align: middle; }
+
+div.register_overview {
+  width: 192px;
+  float: left;
+  padding: 5px;
+  position: relative; }
+
+div.register_contents {
+  width: 728px;
+  float: left;
+  padding: 5px; }
+
+caption, th {
+  text-align: left; }
+
+.register_table th {
+  font-weight: bold;
+  color: #d01027;
+  vertical-align: top;
+  padding: 5px;
+  width: 100px; }
+
+.register_table input[type="text"] {
+  width: 200px; }
+
+.course {
+  border: 1px solid #cccccc;
+  border-radius: 9px;
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 27px;
+  margin: 0 4px 4px 0;
+  position: relative;
+  width: 84px;
+  z-index: 100;
+  background: #339FE8;
+  color: #E7F2F6;
+  font-size: 9px;
+  text-align: center;
+  line-height: 27px; }
+
+.treatmentsite {
+  border: 1px solid #cccccc;
+  border-radius: 9px;
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 27px;
+  margin: 0 4px 4px 0;
+  position: relative;
+  width: 84px;
+  z-index: 100;
+  background: #339FE8;
+  color: #E7F2F6;
+  font-size: 9px;
+  text-align: center;
+  line-height: 27px; }
+
+input.operation_button {
+  cursor: pointer;
+  width: 120px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 4px 8px;
+  border: 1px solid #d01027;
+  background: -moz-linear-gradient(top, #ffffff, #F6D4D5);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#F6D4D5));
+  border-radius: 5px;
+  color: #d01027; }
+
+td.center {
+  text-align: center; }
